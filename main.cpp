@@ -13,6 +13,6 @@ int main(int argc, char *argv[])
 
     orientationPortrait ? w.setGeometry(0,0,240,320) : w.setGeometry(0,0,320,240);
 
-    w.showFullScreen();
+    w.showNormal();
     return a.exec();
 }
